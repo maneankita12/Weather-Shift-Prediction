@@ -76,5 +76,3 @@ We experimented with multiple regression and ensemble models:
 - Real-time weather monitoring and adaptive learning  
 
 ---
-
----
