@@ -1,15 +1,15 @@
 # Weather-Shift-Prediction
 
-# 🌦️ Weather Shift Prediction
+# Weather Shift Prediction
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on **predicting temperature at specific latitude/longitude coordinates and times** using climate datasets and machine learning models. The primary aim is to evaluate uncertainty estimates and robustness under distributional shifts in weather data.
 
 Weather prediction plays a crucial role in planning, safety, and disaster management. By leveraging advanced forecasting models, we aim to improve accuracy in long-term temperature and climate predictions.
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 The goal is to **predict the temperature** at a given latitude, longitude, and time, using historical measurements and climate model predictions.  
 
 Challenges include:
@@ -18,7 +18,7 @@ Challenges include:
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 We utilized large-scale weather datasets (`.csv` files):
 
 - **Train.csv** → 3,129,592 rows × 129 columns (5.03 GB)  
@@ -58,11 +58,11 @@ We experimented with multiple regression and ensemble models:
 | CatBoost Regressor | 1.9745 – 2.717 |
 
 **Best Performing Model:**  
-✅ **XGBoost (with feature selection)** → **RMSE: 1.948**
+ **XGBoost (with feature selection)** → **RMSE: 1.948**
 
 ---
 
-## 🏆 Results & Ranking
+##  Results & Ranking
 1. **XGBoost (F-score feature selection)** – RMSE: 1.948  
 2. **CatBoost Regressor** – RMSE: 1.9745  
 3. **Linear Regression** – RMSE: 2.168  
@@ -70,7 +70,7 @@ We experimented with multiple regression and ensemble models:
 
 ---
 
-## 🚀 Future Scope
+##  Future Scope
 - Incorporating **deep learning architectures** (LSTMs, Transformers) for time-series forecasting  
 - Handling **multi-climate generalization** with improved robustness  
 - Real-time weather monitoring and adaptive learning  
