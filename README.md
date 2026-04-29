@@ -1,5 +1,3 @@
-# Weather-Shift-Prediction
-
 # Weather Shift Prediction
 
 ## Project Overview
