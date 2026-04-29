@@ -37,7 +37,7 @@ We utilized large-scale weather datasets (`.csv` files):
 
 ---
 
-## ⚙️ Preprocessing
+## Preprocessing
 - Removed rows with missing values  
 - Dropped irrelevant columns  
 - Worked with a **reduced dataset (1,000,000 rows × 113 columns)**  
@@ -45,7 +45,7 @@ We utilized large-scale weather datasets (`.csv` files):
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 We experimented with multiple regression and ensemble models:
 
 | Model              | RMSE Score |
